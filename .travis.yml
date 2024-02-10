@@ -7,4 +7,4 @@ before_install:
 
 
 script:
- - docker run -e CI=true umadev2022/docker-react npm run
+ - docker run -e CI=true umadev2022/docker-react npm run test
